@@ -1,0 +1,31 @@
+{
+  "name": "watcher",
+  "version": "1.0.0",
+  "description": "",
+  "preferGlobal": true,
+  "bin": {
+    "watcher": "bin/watcher.sh"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "findup-sync": "^0.1.3",
+    "gcloud": "^0.11.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-haproxy": "git://github.com/UsabilityDynamics/grunt-haproxy",
+    "grunt-shell": "^1.1.1",
+    "load-grunt-tasks": "^1.0.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-symlink": "^0.3.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "mocha": "^2.0.1",
+    "request": "^2.49.0",
+    "should": "^4.3.0"
+  }
+}
